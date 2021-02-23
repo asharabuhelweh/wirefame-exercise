@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  line-height: 1.5;
+}
+header {
+  padding: 15px;
+  background-color: rgb(44, 39, 39);
+  margin-bottom: 15px;
+}
+header nav {
+  width: 960px;
+
+  margin: 0 auto;
+}
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header nav a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  width: 960px;
+}
+section :nth-child(1) {
+  padding: 10px;
+  padding-left: 0;
+}
+section :nth-child(2) {
+  padding: 10px;
+}
+section :nth-child(3) {
+  padding: 10px;
+  padding-left: 10px;
+}
+
+section :nth-child(3) img {
+  float: left;
+  padding-left: 0;
+  width: calc(100% / 2);
+}
+
+// 3rd row image
+main:nth-child(3)  {
+background-color: red;
+}
+
+div img{
+  width: calc(100% / 2);
+  float: left;
+  display: block;
+  padding: 10px;
+}
+figure{
+  float: right;
+  width: 50%;
+  display: block;
+
+}
+ main figure h3 {
+ 
+}
+ main figure p {
+
+  overflow-y: scroll;
+  width: 400px;
+  height: 300px;
+  
+}
+
+footer {
+  background-color: rgb(44, 39, 39);
+  clear: both;
+  padding: 52px;
+  text-align: center;
+}
